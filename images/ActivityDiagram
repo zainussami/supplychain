@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T09:34:51.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="txy2SPXrdZAqmiibvYp2" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T09:38:52.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="GDMWpdVt5vj8rAC3zQx7" version="14.6.11" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="840" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Farmer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="280" height="632" as="geometry" />
         </mxCell>
         <mxCell id="SdYFjw_xde921hiWH3t2-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="5" target="7">
           <mxGeometry relative="1" as="geometry" />
@@ -25,33 +25,43 @@
         <mxCell id="8" value="Coffee Beans &#xa;Processed" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Coffee Pallets &#xa;Added" style="" parent="2" vertex="1">
+        <mxCell id="SdYFjw_xde921hiWH3t2-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="2" source="10" target="31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Sell Coffee" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="412" width="110" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="critical&#xa;section" style="shape=note;whiteSpace=wrap;size=17" parent="2" vertex="1">
+        <mxCell id="31" value="Track &#xa;Authenticity" style="shape=note;whiteSpace=wrap;size=17" parent="2" vertex="1">
           <mxGeometry x="65" y="502" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SdYFjw_xde921hiWH3t2-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="SdYFjw_xde921hiWH3t2-48" target="10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SdYFjw_xde921hiWH3t2-48" value="Coffee Pallets &#xa;Added" style="" vertex="1" parent="2">
+        <mxCell id="SdYFjw_xde921hiWH3t2-48" value="Pack Coffee" style="" vertex="1" parent="2">
           <mxGeometry x="60" y="312" width="110" height="53" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Distributor" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry">
+          <mxGeometry x="445" y="128" width="280" height="632" as="geometry">
             <mxRectangle x="444.5" y="128" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="SdYFjw_xde921hiWH3t2-57" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="3">
+          <mxGeometry x="115.5" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SdYFjw_xde921hiWH3t2-58" value="Coffe Beans &#xa;Harvested" style="" vertex="1" parent="3">
+          <mxGeometry x="75.5" y="413" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SdYFjw_xde921hiWH3t2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="SdYFjw_xde921hiWH3t2-57" target="SdYFjw_xde921hiWH3t2-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4" value="Retailer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="725" y="128" width="274.5" height="632" as="geometry" />
         </mxCell>
         <mxCell id="SdYFjw_xde921hiWH3t2-41" value="Consumer" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="1004.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="999.5" y="128" width="270.5" height="632" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="" style="endArrow=none;strokeColor=#FF0000;endFill=0;rounded=0;dashed=1" parent="1" target="31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="600" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="SdYFjw_xde921hiWH3t2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="SdYFjw_xde921hiWH3t2-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

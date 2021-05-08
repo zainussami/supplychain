@@ -13,3 +13,8 @@ https://rinkeby.etherscan.io/address/0xce213450c84a21800672cc7985b2053f9b1096e5
 ## Activity Diagram 
 
 ![truffle test](images/ActivityDiagram.png)
+
+
+## Sequence Diagram 
+
+![truffle test](images/ActivityDiagram.png)

@@ -1,5 +1,7 @@
 pragma solidity ^0.4.24;
 
+
+
 /// Provides basic authorization control
 contract Ownable {
     address private origOwner;
@@ -14,7 +16,7 @@ contract Ownable {
     }
 
     /// Look up the address of the owner
-    function owner() public view returns (address) {
+    function owner_() public view returns (address) {
         return origOwner;
     }
 
